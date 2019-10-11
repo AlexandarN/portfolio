@@ -95,9 +95,10 @@ app.post('/message', (req, res) => {
           .then(() => console.log('Email sent!'))
           .then(() => {
                req.flash('message', 
-                    `<b><p>Thank you for contacting me ${name}!</p>
-                    <p>I will get back to you shortly. &nbsp;
-                    Best regards,</p>
+                    `<b><p>Thank you for contacting me</p>
+                    <p>${name}!</p>
+                    <p>I will get back to you shortly.</p>
+                    <p>Best regards,</p>
                     Aleksandar</b>`);
                res.redirect('/#contact');
           })
