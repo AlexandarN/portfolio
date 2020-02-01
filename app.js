@@ -108,6 +108,6 @@ app.post('/message', (req, res) => {
      // Error handling MIDDLEWARE           
 
      // DB CONNECTION to APP. SERVER and STARTING the APP. SERVER			 
-app.listen(process.env.PORT || 5000, () => {
-     console.log('Server started!');
+app.listen(process.env.PORT || 3500, () => {
+     console.log('Server started on port 3500!');
 });
