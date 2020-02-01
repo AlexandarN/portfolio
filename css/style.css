@@ -875,7 +875,7 @@ body.offcanvas {
 .colorlib-feature {
   text-align: left;
   width: 100%;
-  float: left;
+  /* float: left; */
   margin-bottom: 40px;
   position: relative; }
   .colorlib-feature .colorlib-icon {
